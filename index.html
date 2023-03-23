@@ -14,43 +14,56 @@
 
 <body>
 
-    <header class="logo">
-        <h1>teste</h1>
-    </header>
+    <div id="page" class="flex">
 
-    <main>
+        <div>
+            <header>
+                <img src="" alt="">
+            </header>
 
-        <div class="titleLogin">
-            <h1>Acesse a plataforma</h1>
-            <p>Faça o login para ter acesso a plataforma.</p>
-        </div>
+            <main>
 
-        <form class="forms">
-            <!-- Input Email -->
-            <div class="container-email">
-                <label for="email">E-mail</label>
-                <input type="email" class="inputEmail" id="email" required>
-            </div>
-            <!-- Input senha -->
-            <div class="container-password">   
-
-                <div class="label-password">
-                    <label for="password">Senha</label>
-                    <a href="#">Esqueceu a senha?</a>
+                <div class="title-login">
+                    <h1>Acesse a plataforma</h1>
+                    <p class="p-login">
+                        Faça o login ou registre-se para começar
+                        a construir seus projetos
+                        ainda hoje.
+                    </p>
                 </div>
 
-                <input type="password" class="inputPassword" id="password" required>
-            </div>
-            <!-- Botão para logar -->
-            <button type="submit" class="btn-Input">Entrar</button>
-            <!-- Criar conta -->
-            <div class="create-acc">
-                Ainda não tem conta?
-                <a href="#">Inscreva-se</a>
-            </div>
-        </form>
+                <form class="forms">
+                    <!-- Input Email -->
+                    <div class="input-wrapper">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="input-email" id="email" required>
+                    </div>
+                    <!-- Input senha -->
+                    <div class="input-wrapper">
 
-    </main>
+                        <div class="label-password flex">
+                            <label for="password">Senha</label>
+                            <a href="#">Esqueceu a senha?</a>
+                        </div>
+
+                        <input type="password" class="input-password" id="password" required>
+                        <img src="assets/show-eye.png" class="eye show-passwod">
+                        <img src="assets/hidden-eye.png" class="eye hidden-password">
+                    </div>
+
+                    <!-- Botão para logar -->
+                    <button type="submit" class="btn-Input">Entrar</button>
+                    <!-- Criar conta -->
+                    <div class="create-acc">
+                        Ainda não tem conta?
+                        <a href="#">Inscreva-se</a>
+                    </div>
+                </form>
+            </main>
+        </div>
+
+        <img src="assets/img_project.jpg">
+    </div>
 
 </body>
 
