@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +11,47 @@
     <script src="js/main.js"></script>
     <title>Document</title>
 </head>
+
 <body>
+
+    <header class="logo">
+        <h1>teste</h1>
+    </header>
+
     <main>
-        
+
+        <div class="titleLogin">
+            <h1>Acesse a plataforma</h1>
+            <p>Faça o login para ter acesso a plataforma.</p>
+        </div>
+
+        <form class="forms">
+            <!-- Input Email -->
+            <div class="container-email">
+                <label for="email">E-mail</label>
+                <input type="email" class="inputEmail" id="email" required>
+            </div>
+            <!-- Input senha -->
+            <div class="container-password">   
+
+                <div class="label-password">
+                    <label for="password">Senha</label>
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+
+                <input type="password" class="inputPassword" id="password" required>
+            </div>
+            <!-- Botão para logar -->
+            <button type="submit" class="btn-Input">Entrar</button>
+            <!-- Criar conta -->
+            <div class="create-acc">
+                Ainda não tem conta?
+                <a href="#">Inscreva-se</a>
+            </div>
+        </form>
+
     </main>
+
 </body>
+
 </html>
